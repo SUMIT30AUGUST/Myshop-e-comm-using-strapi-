@@ -86,9 +86,9 @@
         user: env('DATABASE_USERNAME', 'postgres'),
         password: env('DATABASE_PASSWORD', 'iamrawat@123'),
         schema: env('DATABASE_SCHEMA', 'public'), // Not required
-        ssl: {
-          rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false),
-        },
+        // ssl: {
+        //   rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false),
+        // },
       },
       debug: false,
     },
